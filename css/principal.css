@@ -1,0 +1,132 @@
+.principal
+{
+    width: 100%;
+    overflow: hidden;
+}
+.inicio
+{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.circulo
+{
+    z-index: -1;
+    position: fixed;
+    width: 50vw;
+    min-width: 200px;
+    height: 50vw;
+    min-height: 200px;
+    top: -25vw;
+    left: -25vw;
+    background: radial-gradient(circle farthest-corner at center center, #04ff4f 0%, #4df37ff7 90%);
+    border-radius: 50%;
+    box-shadow: 10px 10px 50px ;
+    animation: movimiento 30s linear infinite;
+}
+.circulo2
+{
+    z-index: -1;
+    position: absolute;
+    width: 35vw;
+    min-width: 100px;
+    height: 35vw;
+    min-height: 100px;
+    bottom: -17.5vw;
+    right: -17.5vw;
+    background: radial-gradient(circle farthest-corner at center center, #04ff4f 0%, #4df37f 90%);
+    border-radius: 50%;
+    box-shadow: -10px -10px 50px ;
+    animation: movimiento2 30s linear infinite;
+}
+@keyframes movimiento 
+{
+    0%
+    {
+        top: -25vw;
+    } 
+    50%
+    {
+        top: -10vw;
+    }  
+    100%
+    {
+        top: -25vw;
+    }
+}
+@keyframes movimiento2
+{
+    0%
+    {
+        bottom: -17.5vw;;
+    } 
+    50%
+    {
+        bottom: -8vw;
+    }  
+    100%
+    {
+        bottom: -17.5vw;;
+    }
+}
+.inicio_conteiner
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.inicio_conteiner h2, .inicio_conteiner h3, .inicio_conteiner p,.inicio_conteiner img , .botones
+{
+    width: 40%;
+    min-width: 300px;
+    text-align: center;
+}
+.inicio_conteiner h2,.inicio_conteiner h3
+{
+    font-family: 'Anton', sans-serif;
+    font-size: 5vh;
+    color: #4df37f;
+    text-shadow: 5px 5px  #000;
+}
+.inicio_conteiner p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.botones
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.botones button
+{
+    margin-top: 20px;
+    width: 200px;
+    padding: 10px 0;
+    transition: color 500ms ease-in-out, background-color 500ms ease-in-out;
+}
+.botones button:nth-child(1)
+{
+    background-color: black;
+    color: #fff;
+    border: solid 1px #000;
+}
+.botones button:nth-child(2)
+{
+    background-color: #fff;
+    color: #000;
+    border: solid 1px #000;
+}
+.botones button:nth-child(1):hover
+{
+    color: #000;
+    background-color: #fff;
+}
+.botones button:nth-child(2):hover
+{
+    background-color: #4df37f;
+}
