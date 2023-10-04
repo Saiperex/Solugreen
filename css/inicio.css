@@ -1,14 +1,3 @@
-.principal
-{
-    width: 100%;
-    overflow: hidden;
-}
-.inicio
-{
-    width: 100%;
-    height: 100vh;
-    position: relative;
-}
 .circulo
 {
     z-index: -1;

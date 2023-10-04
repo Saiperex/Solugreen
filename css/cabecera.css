@@ -34,7 +34,7 @@
 .boton
 {
     display: none;
-    position: absolute;
+    position: fixed;
     width: 6vh;
     height: 6vh;
     top: 2vh;
@@ -63,7 +63,7 @@
 {
     .menu
     {
-       position: absolute;
+       position: fixed;
        top: 0;
        right: -100%;
        width: 100%;
