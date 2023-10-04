@@ -27,3 +27,16 @@ body
     top: 100vh;
     transition: top 0.5s ease;
 }
+@media screen and (max-width:500px) 
+{ 
+    .principal
+    {
+        overflow: visible;
+        overflow-x: hidden;
+    }
+    .sec
+    {
+        position: relative;
+        top: 0;
+    }  
+}

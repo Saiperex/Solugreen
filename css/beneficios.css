@@ -106,4 +106,8 @@
     {
         display: none;
     }
+    .beneficios
+    {
+        z-index: 0;
+    }
 }

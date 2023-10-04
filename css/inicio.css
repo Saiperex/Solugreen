@@ -1,7 +1,7 @@
 .circulo
 {
     z-index: -1;
-    position: fixed;
+    position: absolute;
     width: 50vw;
     min-width: 200px;
     height: 50vw;
@@ -118,4 +118,11 @@
 .botones button:nth-child(2):hover
 {
     background-color: #4df37f;
+}
+@media screen and (max-width:500px) 
+{
+    .circulo,.circulo2
+    {
+        z-index: 2;
+    }    
 }
