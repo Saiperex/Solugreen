@@ -1,0 +1,66 @@
+.contacto
+{
+    background: linear-gradient(180deg,rgb(25,25,25)0%, rgb(25, 25, 25) 80%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contacto form
+{
+    width: 60%;
+    min-width: 330px;
+}
+.contacto form h2,.contacto form h3
+{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+.form_cont
+{
+    display: flex;
+    flex-direction: column;
+}
+.form_cont label
+{
+    color: #fff;
+    margin: 10px 0;
+}
+input[type='submit']
+{
+    margin: 10px 0;
+    padding: 10px;
+}
+.redes
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.redes i
+{
+    height: 8vh;
+    font-size: 10vh;
+    color: #fff;
+    cursor: pointer;
+    transition: color 500ms ease-in-out,box-shadow 500ms ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.redes i:nth-child(1):hover
+{
+    color: #4267B2;
+    box-shadow: 0 0 50px #4267B2;
+}
+.redes i:nth-child(2):hover
+{
+    color: #E1306C;
+    box-shadow: 0 0 50px #E1306C;
+}
+.redes i:nth-child(3):hover
+{
+    color: #25D366;
+    box-shadow: 0 0 50px #25D366;
+}

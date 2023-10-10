@@ -16,7 +16,9 @@
     <link rel="stylesheet" href="css/beneficios.css">
     <link rel="stylesheet" href="css/sobre.css">
     <link rel="stylesheet" href="css/seguridad.css">
+    <link rel="stylesheet" href="css/contacto.css">
     <!--META-->
+    <script src="https://kit.fontawesome.com/c8bf7962f3.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SOLUGREEN - GENERADORES DE HIDROGENO</title>
@@ -114,6 +116,7 @@
             </div>
         </section>
         <section class="sector sec seguridad" style="z-index: 4;">
+            <div class="fondo"></div>
             <div class="seguridad_sec seg1">
                 <img src="img/Hydrogen-Fuel-Cell-Engine.webp" alt="auto hidrogeno">
                 <div class="color"></div>
@@ -141,7 +144,24 @@
                 </div>
             </div>
         </section>
-        <section class="sector sec" style="z-index: 5;">
+        <section class="sector sec contacto" style="z-index: 5;">
+            <div class="fondo"></div>
+            <form action="enviarFormulario.php" method="post">
+                <h2>ADQUIERE TU EQUIPO</h2>
+                <h3>HOY MISMO</h3>
+                <div class="form_cont">
+                    <label for="nombre">Dejanos tu nombre</label>
+                    <input type="text" name="nombre" id="nombre">
+                    <label for="contacto">Telefono o Correo</label>
+                    <input type="text" name="contacto" id="contacto">
+                </div>
+                <input type="submit" value="ENVIAR" name="enviar">
+                <div class="redes">
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-square-whatsapp"></i>
+                </div>
+            </form>
         </section>
     </main>
 </body>
