@@ -27,6 +27,12 @@ body
     top: 100vh;
     transition: top 0.5s ease;
 }
+.logo
+{
+    position: absolute;
+    left: 0vh;
+    top: 0vh;
+}
 @media screen and (max-width:500px) 
 { 
     .principal
@@ -39,4 +45,9 @@ body
         position: relative;
         top: 0;
     }  
+    .logo
+
+    {
+        position: relative;
+    }
 }
