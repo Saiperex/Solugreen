@@ -3,7 +3,7 @@ let indiceActual = 0;
 let valorTop = 100;
 
 const desplazarSectores = (deltaY) => {
-    if (window.innerWidth > 500) {
+    if (window.innerWidth > 1024) {
         if (deltaY > 0 && indiceActual < sectores.length) {
             if (valorTop === 0) {
                 indiceActual++;

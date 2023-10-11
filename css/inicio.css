@@ -160,7 +160,7 @@
 {
     background-color: #4df37f;
 }
-@media screen and (max-width:500px) 
+@media screen and (max-width:1024px) 
 {
     .circulo,.circulo2
     {

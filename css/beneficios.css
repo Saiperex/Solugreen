@@ -76,7 +76,7 @@
     background-color: #4df37f;
     border-radius: 0 0 0 20px;
 }
-@media screen and (max-width:500px) 
+@media screen and (max-width:1024px) 
 {
     .subtexto
     {
