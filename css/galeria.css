@@ -1,0 +1,22 @@
+.galeria
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+main
+{
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+}
+.galeria video, .galeria img
+{
+    width: 300px;
+    margin: 20px;
+}
+.logo2
+{
+    width: 30%;
+    min-width: 330px;
+}
